@@ -3,7 +3,7 @@ from db import db
 
 class StoreModel(db.Model):
 
-    ___tablename__ = "stores"
+    __tablename__ = "stores"
 
     
     id = db.Column(db.Integer, primary_key=True)

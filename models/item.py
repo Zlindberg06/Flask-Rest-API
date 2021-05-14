@@ -4,7 +4,7 @@ from db import db
 
 class ItemModel(db.Model):
 
-    ___tablename__ = "items"
+    __tablename__ = "items"
 
     
     id = db.Column(db.Integer, primary_key=True)
